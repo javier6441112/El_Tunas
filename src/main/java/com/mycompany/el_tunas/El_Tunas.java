@@ -56,7 +56,7 @@ public class El_Tunas {
                     break;
                 case 3:
                     ordenProduccion.terminarOrdenes(ordenesProduccion, productosCatalogo);
-
+                    System.out.println("hola");
                     break;
 
                 case 5:
