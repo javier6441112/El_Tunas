@@ -28,6 +28,13 @@ public class Cliente {
         return cliente;
     }
     
+    public void mostrarClientes(List<Cliente> clientes){
+        for (Cliente cliente :clientes){
+            System.out.println("Nombre :"+ cliente.getNombreCliente());
+            System.out.println("Nit    :"+cliente.getNitCliente());
+        }
+    }
+    
     public Cliente() {
     }
 

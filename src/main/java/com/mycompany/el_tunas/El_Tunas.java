@@ -56,11 +56,17 @@ public class El_Tunas {
                     break;
                 case 3:
                     ordenProduccion.terminarOrdenes(ordenesProduccion, productosCatalogo);
-                    System.out.println("hola");
                     break;
+                    
+                case 4:
+                    cliente.mostrarClientes(listaClientes);
 
                 case 5:
                     salir = "si";
+                    break;
+                    
+                default:
+                    System.out.println("ops ingreso algo que no debia");
                     break;
             }
         } while (salir.equals("no"));
